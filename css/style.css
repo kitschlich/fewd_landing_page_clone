@@ -1,0 +1,56 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+/* Base Styles */
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 1.6rem;
+	background-color: #red;
+}
+
+a {
+	text-decoration: none;
+}
+
+a, a:visited {
+	color: rgb(131, 137, 148);
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/* Top Navigation */
+
+.top-nav {
+	padding: 0 10.75rem;
+	background-color: #fff;
+}
+
+.karma-logo {
+	height: 7rem;	
+}
+
+.top-nav__links {
+	float: right;
+	margin-top: 2.72rem;
+}
+
+.top-nav__links li {
+	display: inline-block;
+	margin-left: 2.5rem;
+}
+
+.top-nav__links a:hover {
+	color: #333333;
+}
+
+.top-nav__links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
