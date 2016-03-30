@@ -26,17 +26,25 @@ ol, ul {
 	list-style: none;
 }
 
+.content {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	margin: 0 auto;
+	min-width: 60rem;
+}
+
 /* Top Navigation */
 
 .top-nav {
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
+	border-bottom: 1px solid #ddd;
 }
 
 .top-nav > .content {
-	width: 97rem;
-	margin: 0 auto;
+	height: 7rem;
+	width: 96rem;
 }
 
 .karma-logo {
@@ -73,6 +81,7 @@ ol, ul {
 	background-color: #333;
 	text-align: center;
 	color: #fff;
+	overflow: auto;
 }
 
 .masthead__title {
@@ -100,4 +109,90 @@ ol, ul {
 	padding: 1.6rem 2.4rem;
 	color: #fff;
 	font-size: 1.8rem;
+}
+
+/* Selling Points */
+
+.selling-points {
+	overflow: hidden;
+	padding-bottom: 8rem;
+}
+
+.selling-points > .content {
+	margin-top: 12.6rem;
+	color: #1d1e21;
+	text-align: center;
+	padding: 0;
+}
+
+.selling-points__headline {
+	font-size: 4.4rem;
+	margin: 2.6rem 0 5rem;
+	font-weight: 300;
+}
+
+.selling-points__list > li {
+	width: 33.3333%;
+	float: left;
+}
+
+.caption {
+	font-weight: 400;
+	font-size: 2.5rem;
+	margin: 4rem 0 3rem;
+}
+
+/* Footer */
+
+.footer {
+	overflow: auto;
+	padding-bottom: 15rem;
+	text-align: center;
+}
+
+.footer hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 2.1rem 0;
+}
+
+.footer__headline {
+	font-size: 1.6rem;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer__social {
+	padding: 0;
+	margin: 0;
+}
+
+.footer__social li {
+	border-radius: 2rem;
+	width: 4rem;
+	display: inline-block;
+	margin: 2rem 5px;
+	padding: 1rem 0;
+	border: 1px solid #eaebec;
+	text-align: center;
+}
+
+.footer .copyright {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	color: #838994;
+	font-size: 1.44rem;
+}
+
+.twitter {
+	color: #55acee;
+}
+
+.facebook {
+	color: #4c66a4;
+}
+
+.instagram {
+	color: #3f729b;
 }
